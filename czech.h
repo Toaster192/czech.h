@@ -2,3 +2,8 @@
 #define když if
 #define plav float
 #define číslo int
+#define zatímco while
+#define pro for
+#define vrácení return
+#define skutečný true
+#define klamný false
