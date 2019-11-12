@@ -32,7 +32,7 @@
 #define rozhodovák  bool
 #define neměnné     const
 #define podepsaný   signed
-#define bezcenný    unsigned
+#define nepodepsaný unsigned
 #define nic         void
 #define cvalík      double
 #define plavec      float
@@ -47,5 +47,6 @@
 
 #define stdven      stdout
 #define stdchyb     stderr
+#define stddovnitř  stdin
 
 
