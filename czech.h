@@ -27,7 +27,7 @@
 
 #define struktura   struct
 #define výčet       enum
-#define anarchie    union
+#define CCCP        union
 
 #define rozhodovák  bool
 #define neměnné     const
@@ -40,7 +40,7 @@
 #define znk         char
 #define kraťas      short
 #define dlouhán     long
-#define hafodlouhej long long
+#define hafodlouhán long long
 
 #define piš(...)    printf(__VA_ARGS__)
 #define fpiš(...)   fprintf(__VA_ARGS__)
