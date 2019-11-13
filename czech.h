@@ -1,8 +1,34 @@
+// typy
 #define SOUBOR FILE
-#define když if
 #define plav float
 #define číslo int
+#define znak char
+#define dlouhé long
+#define dlouhý long
+#define krátké short
+#define krátký short
+#define znaménkové sign
+#define znaménkový sign
+#define neznaménkové unsign
+#define neznaménkový unsign
 
+//logické konstrukce
+#define když if
+#define jestli if
+#define jinak else
+#define dokud while
+#define pro for
+#define dělej do
+#define přepínač switch
+#define případ case
+
+//konstanty
+#define pravda 1
+#define nepravda 0
+#define lež 0
+#define KŘ '\n'
+#define KS -1 //Konec Souboru
+#define NULA ((char *)0)
 
 // stdio
 #define smaž(x) remove(x)
