@@ -6,15 +6,15 @@
 #define autobus     auto
 #define venkovní    extern
 
-#define velikost    sizeof
+#define rozměr      sizeof
 #define novytyp     typedef
 
-#define běž         goto
-#define pokud       if
+#define běžna       goto
+#define když        if
 #define takne       else
 #define dělej       do
 #define dokud       while
-#define provse      for
+#define pro         for
 #define rozchoďit   continue
 #define rozhodit    break
 #define vrať        return
@@ -25,19 +25,19 @@
 #define nabeton     true
 #define nepravda    false
 
-#define struktura   struct
+#define skladba     struct
 #define výčet       enum
 #define CCCP        union
 
 #define rozhodovák  bool
-#define neměnné     const
+#define neměnný     const
 #define podepsaný   signed
 #define nepodepsaný unsigned
 #define nic         void
-#define cvalík      double
-#define plavec      float
-#define říman       int
-#define znk         char
+#define tuplák      double
+#define plovák      float
+#define čís         int
+#define znak        char
 #define kraťas      short
 #define dlouhán     long
 #define hafodlouhán long long
