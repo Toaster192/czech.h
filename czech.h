@@ -7,10 +7,10 @@
 #define dlouhý long
 #define krátké short
 #define krátký short
-#define znaménkové sign
-#define znaménkový sign
-#define neznaménkové unsign
-#define neznaménkový unsign
+#define znaménkové signed
+#define znaménkový signed
+#define neznaménkové unsigned
+#define neznaménkový unsigned
 
 //logické konstrukce
 #define když if
@@ -28,7 +28,7 @@
 #define lež 0
 #define KŘ '\n'
 #define KS -1 //Konec Souboru
-#define NULA ((char *)0)
+#define NULA NULL
 
 // stdio
 #define smaž(x) remove(x)
