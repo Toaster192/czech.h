@@ -1,3 +1,4 @@
+#include "čstdlib.h"
 #define SOUBOR FILE
 #define když if
 #define plav float
