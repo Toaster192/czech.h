@@ -1,14 +1,14 @@
-#define SOUBOR      FILE
+#ifndef CZECH_H_
+#define CZECH_H_
 
+//modifikátory
 #define nehybný     static
 #define brusle      inline
 #define měňavec     volatile
 #define autobus     auto
 #define venkovní    extern
 
-#define rozměr      sizeof
-#define novytyp     typedef
-
+//řídící struktury
 #define běžna       goto
 #define když        if
 #define takne       else
@@ -22,14 +22,16 @@
 #define případ      case
 #define výchozí     default
 
-#define nabeton     true
-#define nepravda    false
-#define NIC         NULL
+//práce s typy
+#define rozměr      sizeof
+#define novytyp     typedef
 
 #define skladba     struct
 #define výčet       enum
 #define CCCP        union
 
+//datové typy
+#define SOUBOR      FILE
 #define rozhodovák  bool
 #define neměnný     const
 #define podepsaný   signed
@@ -43,10 +45,19 @@
 #define dlouhán     long
 #define hafodlouhán long long
 
-#define piš(...)    printf(__VA_ARGS__)
-#define fpiš(...)   fprintf(__VA_ARGS__)
+//definované hodnoty
+#define nabeton     true
+#define nepravda    false
+#define NIC         NULL
 
 #define stdven      stdout
 #define stdchyb     stderr
 #define stddovnitř  stdin
 
+//funkce
+#define hlavní(...) main(__VA_ARGS__)  
+#define piš(...)    printf(__VA_ARGS__)
+#define fpiš(...)   fprintf(__VA_ARGS__)
+#define fpiš(...)   fprintf(__VA_ARGS__)
+
+#endif
