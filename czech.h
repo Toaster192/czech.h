@@ -24,6 +24,7 @@
 
 #define nabeton     true
 #define nepravda    false
+#define NIC         NULL
 
 #define skladba     struct
 #define výčet       enum
@@ -33,7 +34,7 @@
 #define neměnný     const
 #define podepsaný   signed
 #define nepodepsaný unsigned
-#define nic         void
+#define prázdno     void
 #define tuplák      double
 #define plovák      float
 #define čís         int
@@ -48,5 +49,4 @@
 #define stdven      stdout
 #define stdchyb     stderr
 #define stddovnitř  stdin
-
 
