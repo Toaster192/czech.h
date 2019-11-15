@@ -36,6 +36,23 @@
 
 #define hlavní main
 
+// operátory
+#define je ==
+#define není !=
+
+// režimy otevření souboru
+#define ČTENÍ "r"
+#define ZÁPIS "w"
+#define PŘÍPIS "a"
+#define DVOJKOVÉ_ČTENÍ "rb"
+#define DVOJKOVÝ_ZÁPIS "wb"
+#define DVOJKOVÝ_PŘÍPIS "wa"
+
+// standardní I/O streamy
+#define stanvstup stdin
+#define stanvýstup stdout
+#define stanchyb stderr
+
 // konstanty
 #define pravda 1
 #define nepravda 0
