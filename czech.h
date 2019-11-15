@@ -24,10 +24,14 @@
 #define přepínač switch
 #define případ case
 #define výchozí default
+#define rozbij break
+#define pokračuj continue
 
 // ostatní klíčová slova
 #define vrať return
+#define stálé static
 #define stálý static
+#define neměnné const
 #define neměnný const
 
 #define hlavní main
