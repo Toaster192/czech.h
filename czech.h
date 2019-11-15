@@ -11,6 +11,7 @@
 #define znaménkový signed
 #define neznaménkové unsigned
 #define neznaménkový unsigned
+#define prázdno void
 
 //logické konstrukce
 #define když if
@@ -21,6 +22,10 @@
 #define dělej do
 #define přepínač switch
 #define případ case
+#define výchozí default
+
+// ostatní klíčová slova
+#define vrať return
 
 //konstanty
 #define pravda 1
