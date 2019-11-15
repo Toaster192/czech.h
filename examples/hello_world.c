@@ -1,9 +1,8 @@
-#include "czech.h"
+#include "../czech.h"
 #include <stdio.h>
 
-číslo main(prázdno)
+číslo hlavní(prázdno)
 {
-	tisknif("Hello, World!\n");
-	vrať 0;
+    položř("Ahoj, světe!");
+    vrať 0;
 }
-
