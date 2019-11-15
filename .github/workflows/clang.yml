@@ -1,0 +1,14 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Compile examples
+      run: for f in examples/*.c; do echo ">>> Compiling example - $f" && (clang "$f" && echo "--- OK") || (echo "### ERROR $?" && false); done
