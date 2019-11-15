@@ -12,8 +12,9 @@
 #define neznaménkové unsigned
 #define neznaménkový unsigned
 #define prázdno void
+#define prázdnota void
 
-//logické konstrukce
+// logické konstrukce
 #define když if
 #define jestli if
 #define jinak else
@@ -26,8 +27,12 @@
 
 // ostatní klíčová slova
 #define vrať return
+#define stálý static
+#define neměnný const
 
-//konstanty
+#define hlavní main
+
+// konstanty
 #define pravda 1
 #define nepravda 0
 #define lež 0
@@ -85,4 +90,3 @@
 #define sks(x) feof(x)
 #define schyba(x) ferror(x)
 #define tchybu(x) perror(x)
-
