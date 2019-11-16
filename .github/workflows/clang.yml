@@ -1,4 +1,4 @@
-name: CI
+name: Clang CI
 
 on: [push, pull_request]
 
@@ -12,3 +12,6 @@ jobs:
 
     - name: Compile examples
       run: for f in examples/*.c; do echo ">>> Compiling example - $f" && (clang "$f" && echo "--- OK") || (echo "### ERROR $?" && false); done
+
+    - name: Test translator
+      run: mkdir -p tmp/ && SRC=testdata/izp1_2018.c && CZECH=tmp/czech.c && ENGLISH=tmp/english.c && clang $SRC && python translate.py to czech.h $SRC $CZECH && clang $CZECH && python translate.py from czech.h $CZECH $ENGLISH && clang $ENGLISH && [ "$(diff $SRC $CZECH)" != "" ] && [ "$(diff $SRC $ENGLISH)" == "" ] && echo "=== OK" || (echo "### ERROR" && false); rm -r tmp/
