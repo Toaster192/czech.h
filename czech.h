@@ -40,8 +40,8 @@
 #define přepínač switch
 #define případ case
 #define výchozí default
-#define rozchoďit continue
-#define rozhodit break
+#define pokračovat continue
+#define prolomit break
 
 //práce s typy
 #define rozměr sizeof
@@ -95,6 +95,26 @@
 #define tisknif(...) printf(__VA_ARGS__)
 #define piš(...)    printf(__VA_ARGS__)
 #define čtif(...) scanf(__VA_ARGS__)
+
+//stdlib
+#define potrat(...)	abort(__VA_ARGS__)
+#define přiútěku(...) atexit(__VA_ARGS__)
+#define čnavalp(...) calloc(__VA_ARGS__)  //naval čistou paměť
+#define rozděl(...)	div(__VA_ARGS__)
+#define vemroha(...) exit(__VA_ARGS__)
+#define zdarmap(...) free(__VA_ARGS__)  //free memory (paměť zdarma)
+#define navalp(...)	malloc(__VA_ARGS__) //naval paměť
+#define náhoda(...)	rand(__VA_ARGS__)
+#define znavalp(...) realloc(__VA_ARGS__) //znovu naval paměť
+#define pravácesta(...)	realpath(__VA_ARGS__)
+#define skoronáhoda(...) srand(__VA_ARGS__)
+#define řetnatu(...) strtod(__VA_ARGS__)
+#define řetnapl(...) strtof(__VA_ARGS__)
+#define řetnadl(...) strtol(__VA_ARGS__)
+#define řetnadtu(...) strtold(__VA_ARGS__)
+#define řetnahdl(...) strtoll(__VA_ARGS__)
+#define řetnandl(...) strtoul(__VA_ARGS__)
+#define řetnanhdl(...) strtoull(__VA_ARGS__)
 
 // místo délka tisk formát
 #define mdtisknif(...) snprintf(__VA_ARGS__)
