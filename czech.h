@@ -1,6 +1,7 @@
 // typy
 #define SOUBOR FILE
 #define plav float
+#define dvojnásobný double
 #define číslo int
 #define znak char
 #define dlouhé long
@@ -15,6 +16,7 @@
 #define prázdnota void
 #define pravdivost bool
 
+// pokročilé celočíselné typy
 #define velikost_t size_t
 #define číslo8_t int8_t
 #define číslo16_t int16_t
@@ -52,6 +54,12 @@
 #define je ==
 #define není !=
 
+// experimentální triky
+#define začátek {
+#define začni {
+#define konec }
+#define skonči }
+
 // režimy otevření souboru
 #define ČTENÍ "r"
 #define ZÁPIS "w"
@@ -73,7 +81,7 @@
 #define KS -1 //Konec Souboru
 #define NULA NULL
 
-// stdio
+// <stdio.h>
 #define smaž(x) remove(x)
 #define přejmenuj(x, y) rename(x, y)
 #define dočsoubor() tmpfile()
@@ -88,6 +96,18 @@
 #define sčtif(...) fscanf(__VA_ARGS__)
 #define tisknif(...) printf(__VA_ARGS__)
 #define čtif(...) scanf(__VA_ARGS__)
+
+// <stdlib.h>
+#define ppřiděl(x) malloc(x) // paměť přiděl
+#define čpřiděl(x, y) calloc(x, y) // čistou paměť přiděl
+#define osvoboď(x) free(x)
+
+#define řnač(x) atoi(x) // řetězec na číslo
+#define řnap(x) atof(x) // řetězec na plav
+#define řnad(x) atol(x) // řetězec na dlouhý
+#define řnadd(x) atoll(x) // řetězec na dlouhý dlouhý
+
+#define náho() rand()
 
 // místo délka tisk formát
 #define mdtisknif(...) snprintf(__VA_ARGS__)
