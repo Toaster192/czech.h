@@ -3,7 +3,8 @@ import sys
 import re
 import os
 
-PLACEHOLDER_PATTERNS = [r'"(?:[^\\"]|\\.)*"', r"'\\?.'", r'//[^\r\n]*', r'/\*[\s\S]*?\*/']
+PLACEHOLDER_PATTERNS = [r'"(?:[^\\"]|\\.)*"', r"'\\?.'",
+                        r'//[^\r\n]*', r'/\*[\s\S]*?\*/']
 NUMBER_REGEX = re.compile(r'-?\d+(?:\.\d+)?', re.UNICODE)
 DEFINE_REGEX = re.compile(
     r'^\s*#define\s+(\w+)(?:\([^\)\n]*\))?\s+([^\(\)\n]+?)(?:\([^\)\n]*\))?\s*(?://.*)?$', re.UNICODE | re.MULTILINE)
@@ -15,13 +16,13 @@ if __name__ == '__main__':
     # Parse command-line arguments.
 
     if len(sys.argv) != 5:
-        print('Syntax: <direction> <czech.h path> <source file path> <output file path>')
+        print('Syntax: <direction> <czech.h path> <input C file path> <output Č file path>')
         exit(1)
 
     direction = sys.argv[1]
     def_file = sys.argv[2]
-    source_file = sys.argv[3]
-    target_file = sys.argv[4]
+    input_file = sys.argv[3]
+    output_file = sys.argv[4]
 
     if direction not in [FLAG_TO, FLAG_FROM]:
         print('Valid directions:')
@@ -37,7 +38,7 @@ if __name__ == '__main__':
         exit(1)
 
     try:
-        with open(source_file, 'r', encoding='utf8') as f:
+        with open(input_file, 'r', encoding='utf8') as f:
             code = f.read()
     except Exception as ex:
         print('Cannot read source file:', ex)
@@ -76,7 +77,7 @@ if __name__ == '__main__':
 
     include_path = os.path.relpath(
         os.path.abspath(def_file),
-        start=os.path.dirname(os.path.abspath(source_file))).replace('\\', '/')
+        start=os.path.dirname(os.path.abspath(output_file))).replace('\\', '/')
 
     # Add/remove `#include` directive.
 
@@ -91,9 +92,8 @@ if __name__ == '__main__':
 
     else:
         code = code.replace(def_file_include, '')
-        # re.sub(r'^\s*#include\s+"[^"]*' + os.path.basename(def_file) + r'"\s*\r?\n', '', code)
 
     # Write output to the output file.
 
-    with open(target_file, 'w', encoding='utf8', newline='\n') as f:
+    with open(output_file, 'w', encoding='utf8', newline='\n') as f:
         f.write(code)
