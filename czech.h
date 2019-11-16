@@ -13,6 +13,17 @@
 #define neznaménkový unsigned
 #define prázdno void
 #define prázdnota void
+#define pravdivost bool
+
+#define velikost_t size_t
+#define číslo8_t int8_t
+#define číslo16_t int16_t
+#define číslo32_t int32_t
+#define číslo64_t int64_t
+#define nčíslo8_t uint8_t
+#define nčíslo16_t uint16_t
+#define nčíslo32_t uint32_t
+#define nčíslo64_t uint64_t
 
 // logické konstrukce
 #define když if
@@ -33,6 +44,7 @@
 #define stálý static
 #define neměnné const
 #define neměnný const
+#define jdido goto
 
 #define hlavní main
 
