@@ -103,9 +103,23 @@
 #define osvoboď(x) free(x)
 
 #define řnač(x) atoi(x) // řetězec na číslo
+#define řdoč(x) atoi(x)
 #define řnap(x) atof(x) // řetězec na plav
+#define řdop(x) atof(x)
 #define řnad(x) atol(x) // řetězec na dlouhý
+#define řdod(x) atol(x)
 #define řnadd(x) atoll(x) // řetězec na dlouhý dlouhý
+#define řdodd(x) atoll(x)
+
+#define řeťnad(x, y, z) strtol(x, y, z) // řetězec na dlouhý
+#define řeťdod(x, y, z) strtol(x, y, z)
+#define řeťnadd(x, y, z) strtoll(x, y, z) // řetězec na dlouhý dlouhý
+#define řeťdodd(x, y, z) strtoll(x, y, z)
+
+#define řeťnand(x, y, z) strtoul(x, y, z) // řetězec na neznaménkový dlouhý
+#define řeťdond(x, y, z) strtoul(x, y, z)
+#define řeťnandd(x, y, z) strtoull(x, y, z) // řetězec na neznaménkový dlouhý dlouhý
+#define řeťdondd(x, y, z) strtoull(x, y, z)
 
 #define náho() rand()
 
