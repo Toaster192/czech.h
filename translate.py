@@ -65,7 +65,7 @@ if __name__ == '__main__':
         source, target = (d[1], d[2]) if direction == FLAG_FROM \
             else (d[2], d[1])
 
-        if not re.fullmatch(r'^\w+$', source, re.UNICODE):
+        if not re.fullmatch(r'^\w+$', source, re.UNICODE) or re.fullmatch(r'^\d+$', source, re.UNICODE):
             continue
 
         code = re.sub(f'\\b{source}\\b', target, code, flags=re.UNICODE)
