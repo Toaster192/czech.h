@@ -6,10 +6,10 @@
     plav plavTyp;
     dvojitý dvojitýTyp;
     znak znakTyp;
-    // Velikost operator is used to evaluate the size of a variable
-    tisknif("Size of číslo: %ld bytes\n", velikost(čísloTyp));
-    tisknif("Size of plav: %ld bytes\n", velikost(plavTyp));
-    tisknif("Size of dvojitý: %ld bytes\n", velikost(dvojitýTyp));
-    tisknif("Size of znak: %ld byte\n", velikost(znakTyp));
+    // Operátor rozměr se používá ke zjištění velikosti typu
+    tisknif("Velikost čísla je: %ld bajtů\n", rozmer(čísloTyp));
+    tisknif("Velikost plavání je: %ld bajtů\n", rozmer(plavTyp));
+    tisknif("Velikost dvojitého je: %ld bajtů\n", rozmer(dvojitýTyp));
+    tisknif("Velikost znaku je: %ld bajt\n", rozmer(znakTyp));
     vrať 0;
 }
