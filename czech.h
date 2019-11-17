@@ -90,24 +90,24 @@
 #define nastavmísto(x, y) setbuf(x, y)
 #define přenastavmísto(x, y, z, a) setvbuf(x, y, z, a)
 #define stisknif(...) fprintf(__VA_ARGS__)
-#define fpiš(...)   fprintf(__VA_ARGS__)
+#define spiš(...)   fprintf(__VA_ARGS__)
 #define sčtif(...) fscanf(__VA_ARGS__)
 #define tisknif(...) printf(__VA_ARGS__)
 #define piš(...)    printf(__VA_ARGS__)
 #define čtif(...) scanf(__VA_ARGS__)
 
 //stdlib
+#define navalp(...)	malloc(__VA_ARGS__) //naval paměť
+#define čnavalp(...) calloc(__VA_ARGS__)  //naval čistou paměť
+#define znavalp(...) realloc(__VA_ARGS__) //znovu naval paměť
+#define zdarmap(...) free(__VA_ARGS__)  //free memory (paměť zdarma)
 #define potrat(...)	abort(__VA_ARGS__)
 #define přiútěku(...) atexit(__VA_ARGS__)
-#define čnavalp(...) calloc(__VA_ARGS__)  //naval čistou paměť
 #define rozděl(...)	div(__VA_ARGS__)
 #define vemroha(...) exit(__VA_ARGS__)
-#define zdarmap(...) free(__VA_ARGS__)  //free memory (paměť zdarma)
-#define navalp(...)	malloc(__VA_ARGS__) //naval paměť
 #define náhoda(...)	rand(__VA_ARGS__)
-#define znavalp(...) realloc(__VA_ARGS__) //znovu naval paměť
 #define pravácesta(...)	realpath(__VA_ARGS__)
-#define skoronáhoda(...) srand(__VA_ARGS__)
+#define snáhoda(...) srand(__VA_ARGS__)
 #define řetnatu(...) strtod(__VA_ARGS__)
 #define řetnapl(...) strtof(__VA_ARGS__)
 #define řetnadl(...) strtol(__VA_ARGS__)
