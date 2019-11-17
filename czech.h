@@ -5,6 +5,8 @@
 #define znak char
 #define dlouhé long
 #define dlouhý long
+#define dvojité double
+#define dvojitý double
 #define krátké short
 #define krátký short
 #define znaménkové signed
@@ -55,6 +57,7 @@
 #define sčtif(...) fscanf(__VA_ARGS__)
 #define tisknif(...) printf(__VA_ARGS__)
 #define čtif(...) scanf(__VA_ARGS__)
+#define velikost(x) sizeof(x)
 
 // místo délka tisk formát
 #define mdtisknif(...) snprintf(__VA_ARGS__)
