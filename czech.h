@@ -116,6 +116,16 @@
 #define řetnandl(...) strtoul(__VA_ARGS__)
 #define řetnanhdl(...) strtoull(__VA_ARGS__)
 
+//stdint.h
+#define nčís8_t uint8_t
+#define pčís8_t int8_t
+#define nčís16_t uint16_t
+#define pčís16_t int16_t
+#define nčís32_t uint32_t
+#define pčís32_t int32_t
+#define nčís64_t uint64_t
+#define pčís64_t int64_t
+
 // místo délka tisk formát
 #define mdtisknif(...) snprintf(__VA_ARGS__)
 #define mtisknif(...) sprintf(__VA_ARGS__)
