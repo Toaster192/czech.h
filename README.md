@@ -11,7 +11,7 @@ Clone the repository or download the `czech.h` file and include it in your C
 code just like you would include any other header file.
 
 So far we have only been able to compile the code using
-[Clang](http://releases.llvm.org/download.html).
+[Clang](http://releases.llvm.org/download.html) or [tcc](https://bellard.org/tcc/).
 
 If you manage to compile it using GCC, please let us know how.
 
