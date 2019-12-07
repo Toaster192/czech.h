@@ -1,6 +1,7 @@
 // typy
 #define SOUBOR FILE
 #define plav float
+#define dvojitý double
 #define číslo int
 #define znak char
 #define dlouhé long
