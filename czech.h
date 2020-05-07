@@ -157,3 +157,7 @@
 #define sks(x) feof(x)
 #define schyba(x) ferror(x)
 #define tchybu(x) perror(x)
+
+//Algorithms
+#define rseřaď(ptr, count, size, comp) qsort(ptr, count, size, comp)
+#define dnajď(key, ptr, count, size, comp) bsearch(key, ptr, count, size, comp)
