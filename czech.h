@@ -1,7 +1,9 @@
 // typy
 #define SOUBOR FILE
 #define plav float
+#define vznášej float
 #define dvojnásobný double
+#define dvojitý double
 #define číslo int
 #define znak char
 #define dlouhé long
@@ -29,7 +31,9 @@
 
 // logické konstrukce
 #define když if
+#define pokud if
 #define jestli if
+#define jestliže if
 #define jinak else
 #define dokud while
 #define pro for
@@ -44,8 +48,10 @@
 #define vrať return
 #define stálé static
 #define stálý static
+#define stálá static
 #define neměnné const
 #define neměnný const
+#define neměnná const
 #define jdido goto
 
 #define hlavní main
