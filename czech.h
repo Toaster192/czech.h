@@ -1,9 +1,11 @@
 // typy
 #define SOUBOR FILE
 #define plav float
+#define plovoucí float
 #define vznášej float
 #define dvojnásobný double
 #define dvojitý double
+#define dvojité double
 #define číslo int
 #define znak char
 #define dlouhé long
@@ -12,6 +14,8 @@
 #define krátký short
 #define znaménkové signed
 #define znaménkový signed
+#define bezznaménkový unsigned
+#define bezznaménkové unsigned
 #define neznaménkové unsigned
 #define neznaménkový unsigned
 #define prázdno void
@@ -53,6 +57,7 @@
 #define neměnný const
 #define neměnná const
 #define jdido goto
+#define velikost(x) sizeof(x)
 
 #define hlavní main
 
