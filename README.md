@@ -1,19 +1,24 @@
 # Č
 
-The czech library to C because we could
+The czech library for C. Why? Because we could, of course!
 
-Please contribute with other horrible translations so we can make a full czech
-sample code later
+Please contribute your other ~~horrible~~ awesome and creative translations
+so that we can write a fully czech code to suit all our needs.
 
 ## Using
 
-Clone the repository or download the `czech.h` file and include it in your C
-code just like you would include any other header file.
+This project resides solely in a single header file, aptly named `czech.h`.
+Download that file alone, or along this whole repository, and then, after
+including it in your source files like you would with any other header, you
+will be fully set up! (Just make sure you use relatively modern compiler)
 
-So far we have only been able to compile the code using
-[Clang](http://releases.llvm.org/download.html).
+We have this project tested and provably working with
+[Clang](http://releases.llvm.org/download.html), but newer versions of gcc
+are also known to work, as well as some other compilers.
 
-If you manage to compile it using GCC, please let us know how.
+## Integrated transpiler
+For testing, we also provide C to Č and reverse transpiler in the file
+`translate.py`. Launch it with `./translate.py to czech.h path/to/your/C/file.c path/to/new/Č/file.č`
 
 ## Obligatory "Hello World" example
 
