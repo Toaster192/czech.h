@@ -104,7 +104,7 @@
 #define lež 0
 #define KŘ '\n'
 #define KS -1 //Konec Souboru
-#define NULA NULL
+#define NIC NULL
 
 // <stdio.h>
 #define smaž(x) remove(x)
