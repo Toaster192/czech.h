@@ -93,6 +93,14 @@
 #define konec }
 #define skonči }
 
+#define major *
+#define podplukovník **
+#define plukovník ***
+#define brigádní_generál *
+#define generálmajor **
+#define generálporučík ***
+#define armádní_generál ****
+
 // režimy otevření souboru
 #define ČTENÍ "r"
 #define ZÁPIS "w"
