@@ -214,6 +214,7 @@
 #define jmennýprostor namespace
 // std -> sexually transmitted disease -> Sexuálně přenosná nemoc -> spn
 #define spn std
+// STandarD -> STandardnÍ
 #define stí std
 
 #define vektor vector
