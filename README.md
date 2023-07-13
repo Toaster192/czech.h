@@ -18,7 +18,7 @@ are also known to work, as well as some other compilers.
 
 ## Integrated transpiler
 For testing, we also provide C to Č and reverse transpiler in the file
-`translate.py`. Launch it with `./translate.py to czech.h path/to/your/C/file.c path/to/new/Č/file.č`
+`translate.py`. Launch it with `./translate.py to czech.h path/to/your/C/file.c cesta/k/novému/Č/souboru.č`
 
 ## Obligatory "Hello World" example
 
