@@ -4,7 +4,7 @@
 používá jménovesmír spn;
 
 číslo hlavní(prázdno){
-    vektor<int> poop;
+    vektor<číslo> poop;
     poop.zatlač_zpátky(32);
     vrať 0;
 }

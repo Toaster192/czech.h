@@ -1,4 +1,4 @@
-# Č / Čépépé
+# Č (Čéčko) / Č++ (Čépépé)
 
 The czech library for C (and C++). Why? Because we could, of course!
 
