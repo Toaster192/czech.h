@@ -1,6 +1,6 @@
-# Č
+# Č (Čéčko) / Č++ (Čépépé)
 
-The czech library for C. Why? Because we could, of course!
+The czech library for C (and C++). Why? Because we could, of course!
 
 Please contribute your other ~~horrible~~ awesome and creative translations
 so that we can write a fully czech code to suit all our needs.
