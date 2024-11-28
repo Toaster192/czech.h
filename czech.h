@@ -67,6 +67,23 @@
 #define ncel32_t uint32_t
 #define ncel64_t uint64_t
 
+// paměťové třídy
+#define stálý static
+#define stálá static
+#define stálé static
+#define rejstřík register
+#define vnější extern
+#define samočinný auto
+#define samočinná auto
+#define samočinné auto
+#define automatický auto
+#define automatická auto
+#define automatické auto
+#define automobil auto
+#define samoodvozený auto
+#define samoodvozená auto
+#define samoodvozené auto
+
 // kvalifikátory typu
 #define konst const
 #define konstantní const
@@ -105,9 +122,6 @@
 // ostatní klíčová slova
 #define vrať return
 #define navrať return
-#define stálý static
-#define stálá static
-#define stálé static
 #define jdido goto
 #define velikost(x) sizeof(x)
 
