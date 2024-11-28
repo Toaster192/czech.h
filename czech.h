@@ -76,6 +76,9 @@
 #define samočinný auto
 #define samočinná auto
 #define samočinné auto
+#define automatický auto
+#define automatická auto
+#define automatické auto
 
 // kvalifikátory typu
 #define konst const
