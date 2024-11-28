@@ -67,6 +67,15 @@
 #define ncel32_t uint32_t
 #define ncel64_t uint64_t
 
+// další datové typy
+#define výčet enum
+#define vyčis enum
+#define vyčíslení enum
+#define strukt struct
+#define struktura struct
+#define svaz union
+#define sdružení union
+
 // paměťové třídy
 #define stálý static
 #define stálá static
@@ -124,6 +133,8 @@
 #define navrať return
 #define jdido goto
 #define velikost(x) sizeof(x)
+#define definujtyp typedef
+#define definicetypu typedef
 
 #define hlavní main
 
