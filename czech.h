@@ -67,6 +67,20 @@
 #define ncel32_t uint32_t
 #define ncel64_t uint64_t
 
+// kvalifikátory typu
+#define konst const
+#define konstantní const
+#define neměnný const
+#define neměnná const
+#define neměnné const
+#define nestálý volatile
+#define nestálá volatile
+#define nestálé volatile
+// C99 kvalifikátory
+#define omezený restrict
+#define omezená restrict
+#define omezené restrict
+
 // logické konstrukce
 #define když if
 #define pokud if
@@ -94,11 +108,6 @@
 #define stálý static
 #define stálá static
 #define stálé static
-#define konst const
-#define konstantní const
-#define neměnný const
-#define neměnná const
-#define neměnné const
 #define jdido goto
 #define velikost(x) sizeof(x)
 
