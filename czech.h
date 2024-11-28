@@ -79,6 +79,10 @@
 #define automatický auto
 #define automatická auto
 #define automatické auto
+#define automobil auto
+#define samoodvozený auto
+#define samoodvozená auto
+#define samoodvozené auto
 
 // kvalifikátory typu
 #define konst const
