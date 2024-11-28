@@ -1,2 +1,2 @@
 ## Popis požadavku táhnutí
-<!-- Krátce popiš změny, které tímto přinášíš>
+<!-- Popiš všechny významné změny, které tímto přinášíš>
