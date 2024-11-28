@@ -220,6 +220,7 @@
 // <stdlib.h> - <spnkni.h>
 #define ppřiděl(x) malloc(x) // paměť přiděl
 #define čpřiděl(x, y) calloc(x, y) // čistou paměť přiděl
+#define znpřiděl(x, y) realloc(x, y) // znovu paměť přiděl
 #define osvoboď(x) free(x)
 
 #define řnač(x) atoi(x) // řetězec na číslo
