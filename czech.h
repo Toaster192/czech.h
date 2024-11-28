@@ -69,7 +69,9 @@
 
 // další datové typy
 #define výčet enum
+#define výčis enum
 #define vyčíslení enum
+#define strukt struct
 #define struktura struct
 #define svaz union
 #define sdružení union
