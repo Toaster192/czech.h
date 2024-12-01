@@ -327,6 +327,24 @@
 #define řeťzměň(...) strxfrm(__VA_ARGS__)
 #define řeťzměň_l(...) strcfrm_l(__VA_ARGS__)
 
+// <ctype.h> - <ztyp.h>
+#define jealnum(x) isalnum(x)
+#define jealfa(x) isalpha(x)
+#define jekntrl(x) iscntrl(x)
+#define ječíslice(x) isdigit(x)
+#define jegraf(x) isgraph(x)
+#define jemalý(x) islower(x)
+#define jenižší(x) islower(x)
+#define jetisk(x) isprint(x)
+#define jeinterp(x) ispunct(x)
+#define jemezera(x) isspace(x)
+#define jevelký(x) isupper(x)
+#define jevyšší(x) isupper(x)
+// je Šestnáctková číslice
+#define ješčíslice(x) isxdigit(x)
+#define donižší(x) tolower(x)
+#define dovyšší(x) toupper(x)
+
 // <float.h> - <plav.h>
 #define PLV_SOUSTAVA FLT_RADIX
 #define PLV_UDRŽ_ČÍS FLT_MANT_DIG
