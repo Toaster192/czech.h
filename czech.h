@@ -246,6 +246,8 @@
 // semeno náhody
 #define snáho(x) srand(x)
 #define rseřaď(x, y, z, a) qsort(x, y, z, a)
+#define konec(x) exit(x)
+#define odejít(x) exit(x)
 
 // místo délka tisk formát
 #define mdtisknif(...) snprintf(__VA_ARGS__)
