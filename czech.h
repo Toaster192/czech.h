@@ -243,6 +243,8 @@
 #define řeťdondd(x, y, z) strtoull(x, y, z)
 
 #define náho() rand()
+// semeno náhody
+#define snáho(x) srand(x)
 #define rseřaď(x, y, z, a) qsort(x, y, z, a)
 
 // místo délka tisk formát
