@@ -243,6 +243,7 @@
 #define řeťdondd(x, y, z) strtoull(x, y, z)
 
 #define náho() rand()
+#define rseřaď(x, y, z, a) qsort(x, y, z, a)
 
 // místo délka tisk formát
 #define mdtisknif(...) snprintf(__VA_ARGS__)
