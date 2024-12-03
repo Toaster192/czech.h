@@ -492,6 +492,29 @@
 #define pzbyp(x, y) fmodf(x, y)
 #define pzbyd(x, y) fmodl(x, y)
 
+// <unistd.h> - <unistd.h> (Unix standard)
+#define vidlička() fork()
+#define dostaňčp() getpid()
+#define mspát() usleep()  // mikrosekundy spát
+
+// <semaphore.h> - <semafor.h>
+#define SEM_SELHAL SEM_FAILED
+#define SEM_SELHÁNÍ SEM_FAILED
+#define sem_inic(x, y, z) sem_init(x, y, z)  // inicializace / inicializuj
+#define sem_otevři(...) sem_open(__VA_ARGS__)
+#define sem_otevřít(...) sem_open(__VA_ARGS__)
+#define sem_čekej(x) sem_wait(x)
+#define sem_počkej(x) sem_wait(x)
+#define sem_uvolni(x) sem_post(x)
+#define sem_signalizuj(x) sem_post(x)
+#define sem_znič(x) sem_destroy(x)
+#define sem_odpoj(x) sem_unlink(x)
+#define sem_odpojit(x) sem_unlink(x)
+#define sem_smazat(x) sem_unlink(x)
+#define sem_zavři(x) sem_close(x)
+#define sem_zavřít(x) sem_close(x)
+#define sem_dostaňhodnotu(x, y) sem_getvalue(x, y)
+
 /*
    ▀█▄▄█▀
     ▄▄▄▄
