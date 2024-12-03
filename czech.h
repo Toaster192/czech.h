@@ -492,6 +492,23 @@
 #define pzbyp(x, y) fmodf(x, y)
 #define pzbyd(x, y) fmodl(x, y)
 
+// <signal.h> - <signál.h>
+#define zabít() kill()
+#define zabij() kill()
+#define usmrtit() kill()
+#define usmrť() kill()
+#define skolit() kill()
+#define skol() kill()
+#define utratit() kill()
+#define utrať() kill()
+#define porazit() kill()
+#define poraž() kill()
+#define zakroutit_krkem() kill()
+#define zakruť_krkem() kill()
+#define odkráglovat() kill()
+#define odkrágluj() kill()
+#define signál() signal()
+
 /*
    ▀█▄▄█▀
     ▄▄▄▄
