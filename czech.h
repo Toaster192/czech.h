@@ -503,6 +503,8 @@
 #define utrať() kill()
 #define porazit() kill()
 #define poraž() kill()
+#define potratit() kill()
+#define potrať() kill()
 #define zakroutit_krkem() kill()
 #define zakruť_krkem() kill()
 #define odkráglovat() kill()
