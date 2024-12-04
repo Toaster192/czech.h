@@ -516,7 +516,7 @@
 #define SIGNEZ  SIGILL   // signál nezákonný
 #define SIGPOTR SIGABRT  // signál potrat
 #define SIGPŘCH SIGFPE   // signál plovoucí řádová chyba
-#define SIGDÍP  SIGSEGV  // signál díl porušení (segment violation)
+#define SIGDÍLP SIGSEGV  // signál díl porušení (segment violation)
 #define SIGÚSP  SIGSEGV  // signál úsek porušení
 #define SIGUKO  SIGTERM  // signál ukončit
 #define SIGZAV  SIGHUP   // signál zavěsit
