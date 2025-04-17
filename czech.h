@@ -492,6 +492,42 @@
 #define pzbyp(x, y) fmodf(x, y)
 #define pzbyd(x, y) fmodl(x, y)
 
+// <signal.h> - <signál.h>
+#define zabít() kill()
+#define zabij() kill()
+#define usmrtit() kill()
+#define usmrť() kill()
+#define skolit() kill()
+#define skol() kill()
+#define utratit() kill()
+#define utrať() kill()
+#define porazit() kill()
+#define poraž() kill()
+#define potratit() kill()
+#define potrať() kill()
+#define zakroutit_krkem() kill()
+#define zakruť_krkem() kill()
+#define odkráglovat() kill()
+#define odkrágluj() kill()
+#define signál() signal()
+
+// čísla signálů (vizte kill -l nebo signum-generic.h)
+#define SIGPŘE  SIGINT   // signál přerušení
+#define SIGNEZ  SIGILL   // signál nezákonný
+#define SIGPOTR SIGABRT  // signál potrat
+#define SIGPŘCH SIGFPE   // signál plovoucí řádová chyba
+#define SIGDÍLP SIGSEGV  // signál díl porušení (segment violation)
+#define SIGÚSP  SIGSEGV  // signál úsek porušení
+#define SIGUKO  SIGTERM  // signál ukončit
+#define SIGZAV  SIGHUP   // signál zavěsit
+#define SIGODE  SIGQUIT  // signál odejít
+#define SIGPAST SIGTRAP  // signál past
+#define SIGZAB  SIGKILL  // signál zabít
+#define SIGTRUB SIGPIPE  // signál trubka
+#define SIGROUR SIGPIPE  // signál roura
+#define SIGBUD  SIGALRM  // signál budík
+#define SIGPOPL SIGALRM  // signál poplach
+
 /*
    ▀█▄▄█▀
     ▄▄▄▄
