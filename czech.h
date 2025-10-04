@@ -158,6 +158,9 @@
 #define je_menší_nebo_rovno <=
 #define je_větší >
 #define je_větší_nebo_rovno >=
+#define nebo ||
+#define a &&
+#define rovná_se =
 
 // experimentální triky
 #define začátek {
