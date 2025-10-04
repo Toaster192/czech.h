@@ -135,6 +135,7 @@
 #define velikost(x) sizeof(x)
 #define definujtyp typedef
 #define definicetypu typedef
+#define středník ;
 
 #define hlavní main
 
