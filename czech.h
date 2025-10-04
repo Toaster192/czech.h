@@ -136,6 +136,8 @@
 #define definujtyp typedef
 #define definicetypu typedef
 #define středník ;
+#define stop ;
+#define vole ;
 
 #define hlavní main
 
@@ -152,12 +154,24 @@
 #define nerovné !=
 #define nerovno !=
 #define nerovnáse !=
+#define je_menší <
+#define je_menší_nebo_rovno <=
+#define je_větší >
+#define je_větší_nebo_rovno >=
 
 // experimentální triky
 #define začátek {
 #define začni {
 #define konec }
 #define skonči }
+#define chlupatá_závorka {
+#define chlupatá_zavírací_závorka }
+#define kulatý_začátek (
+#define začni_kulatě (
+#define kulatý_konec )
+#define skonči_kulatě )
+#define závorka (
+#define zavírací_závorka )
 
 #define major *
 #define podplukovník **
