@@ -201,6 +201,9 @@
 
 // Knihovny
 
+// <time.h> - <čas.h>
+#define čas(x) time(x)
+
 // <stdio.h> - <spnvv.h>
 #define smaž(x) remove(x)
 #define přejmenuj(x, y) rename(x, y)
